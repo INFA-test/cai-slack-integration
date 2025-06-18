@@ -198,8 +198,8 @@ def query_similar_chunks(query_text, top_k=5):
 
 
 # keys and stuff 
-PINECONE_API_KEY = "pcsk_Jh58L_Q9ZRnf7aDZ5HTiaNxHzLieydmA2VksBpXv8veWrna9ZzvoF1QBdcHxTxfsxgXpt" #get this from pincone once you create an account 
-GOOGLE_API_KEY = "AIzaSyDlz1yQMxWfkYteOW3W4SDdgZi54BX6e-0"  # get this from your gemini studio
+PINECONE_API_KEY = "<PINECONE API KEY>" #get this from pincone once you create an account 
+GOOGLE_API_KEY = "<GOOGLE API KEY>"  # get this from your gemini studio
 
 index_name = 'pokemon-gemini'  #index name on pinecone; replace with what you want 
 file_path = os.path.join(os.getcwd(),"pokedoc")
