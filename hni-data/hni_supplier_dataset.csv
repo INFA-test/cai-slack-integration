@@ -1,0 +1,11 @@
+Supplier_ID,Supplier_Name,Address,Phone_Number,Email,Product_Types,Primary_Contact,Region
+SUP001,TextileCorp,123 Weaver St, Chicago, IL 60601,(312) 555-1234,info@textilecorp.com,Fabrics,Mesh,John Smith,North America
+SUP002,WeaveMaster,456 Loom Ave, Atlanta, GA 30303,404-555-5678,Sales@WeaveMaster.com,Fabrics,Leather,Jane Doe,
+SUP003,FabricWorld,,678-555-9012,contact@fabricworld.net,Fabrics,Velvet,,Asia
+SUP004,SteelFrame Inc,789 Metal Rd, Houston, TX 77002,+1-713-555-3456,orders@steelframe.com,Frames,Bases,Mike Johnson,North America
+SUP005,LeatherLux,101 Hide Way, Dallas, TX 75201,2145557890,sales@leatherlux.con,Leather,,North America
+SUP006,MeshTech Ltd,222 Fiber St, Seattle, WA 98101,(206) 555-2345,,Mesh,Fabrics,Emma Lee,North America
+SUP007,BaseCraft Co,,+1 510 555 6789,info@basecraft.com,Bases,Robert Brown,Asia
+SUP008,TextileTrend,333 Yarn Blvd, New York, NY 10001,212-555-8901,support@TextileTrend.com,fabrics,leather,Sophia Kim,
+SUP009,FrameForge,444 Alloy Lane, Miami, FL 33101,(305) 555-4567,frameforge@gmail.com,Frames,,North America
+SUP010,SilkSource,555 Thread Dr, Los Angeles, CA 90001,323-555-0123,,Silk,Fabrics,Liam Chen,Asia

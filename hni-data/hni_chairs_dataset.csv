@@ -1,0 +1,21 @@
+Product_ID,Product_Name,Brand,Material,Seat_Height_Inches,Weight_Lbs,Price_USD,Availability,Manufacturing_Location,Color_Options
+CHR001,HON Ignition 2.0,HON,Fabric,18.5,35.2,499.99,InStock,USA,Blue,Black,Grey
+CHR002,Allsteel Acuity,Allsteel,Leather,19.0,40.5,750.00,out,Asia,Black,Brown,Tan
+CHR003,Kimball Wish,Kimball,Mesh,17.8,,399.95,Available,USA,Black,Grey,Red
+CHR004,HBF Cahoots,HBF,Fabric,18.2,38.0,600.00,Low,USA,Green,Blue,Beige
+CHR005,HON Nucleus,HON,Leather,,42.3,825.50,InStock,Asia,Black,Navy,White
+CHR006,Allsteel Relate,Allsteel,Fabric,18.7,36.8,550.00,NotAvailable,USA,Red,Charcoal,Blue
+CHR007,Gunlocke Silea,Gunlocke,Leather,19.5,45.0,950.25,Available,USA,Brown,Black,Burgundy
+CHR008,Kimball Xsite,Kimball,Mesh,17.5,33.5,450.00,,Asia,Grey,Black,Green
+CHR009,HON Ceres,HON,Fabric,18.0,37.0,525.75,InStock,USA,Blue,Beige,Red
+CHR010,HBF Pivot,HBF,Leather,19.2,41.2,700.00,LowStock,USA,Tan,Black,White
+CHR011,HON Endorse,HON,Fabric,18.3,36.5,480.00,InStock,USA,Blue,Grey,Black,Red
+CHR012,Allsteel Clarity,Allsteel,Mesh,,34.0,420.50,out,Asia,Black,Grey
+CHR013,Kimball Joya,Kimball,Leather,19.1,43.0,800.00,Available,USA,Brown,Tan,Black
+CHR014,HBF Nest,HBF,Fabric,18.4,39.5,620.00,Low,,Green,Blue,Charcoal
+CHR015,Gunlocke Treviso,Gunlocke,Leather,19.3,46.0,1100.00,InStock,USA,Black,Burgundy
+CHR016,HON Convergence,HON,Fabric,18.6,35.8,510.00,NotAvailable,Asia,Blue,Red,Beige
+CHR017,Allsteel Mimeo,Allsteel,Mesh,17.9,32.5,460.00,InStock,USA,Grey,Black,Green
+CHR018,Kimball Flip,Kimball,Fabric,,37.2,575.00,Low,USA,Blue,Black
+CHR019,HBF Amplify,HBF,Leather,19.4,44.0,850.00,Available,Asia,Brown,Black,Tan,White
+CHR020,HON Solve,HON,Mesh,18.1,33.0,490.00,out,USA,Black,Grey,Red

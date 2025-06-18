@@ -1,0 +1,21 @@
+Fabric_ID,Fabric_Name,Type,Color,Durability_Rating_Wyzenbeek,Width_Inches,Cost_Per_Yard_USD,Supplier
+FAB001,HBF Textile Aura,Polyester,Blue,100000,54,25.50,TextileCorp
+FAB002,Allsteel Vellum,Wool,Green,80000,56,30.00,WeaveMaster
+FAB003,Kimball Suede,Faux Suede,Beige,,54,22.75,FabricWorld
+FAB004,HON Canvas,Cotton,Red,60000,52,18.90,TextileCorp
+FAB005,HBF Silk Elegance,Silk,Grey,40000,55,45.00,
+FAB006,Allsteel DuraMesh,Mesh,Black,120000,54,28.50,WeaveMaster
+FAB007,Kimball Velvet,Velvet,Purple,75000,53,35.25,FabricWorld
+FAB008,HON EcoFabric,Recycled Polyester,Blue,90000,54,20.00,TextileCorp
+FAB009,HBF Linen Lux,Linen,White,50000,,26.75,FabricWorld
+FAB010,Allsteel Wool Blend,Wool,Charcoal,85000,55,32.00,WeaveMaster
+FAB011,HON Duratex,Fabric,Red,95000,54,24.00,TextileCorp
+FAB012,Kimball Softweave,Polyester,Black,,53,27.50,FabricWorld
+FAB013,HBF Plush,Faux Suede,Navy,70000,55,29.75,WeaveMaster
+FAB014,Allsteel Silk Touch,Silk,Beige,45000,54,42.00,
+FAB015,HON UltraMesh,Mesh,Grey,110000,52,26.50,TextileCorp
+FAB016,Kimball Cotton Blend,Cotton,Blue,65000,54,19.00,FabricWorld
+FAB017,HBF Wool Lux,Wool,Brown,82000,56,31.50,WeaveMaster
+FAB018,Allsteel EcoVelvet,Velvet,Green,78000,,33.25,TextileCorp
+FAB019,HON Textura,Fabric,Charcoal,88000,54,23.75,FabricWorld
+FAB020,HBF Satin Glow,Satin,White,50000,55,40.00,
