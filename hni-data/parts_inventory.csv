@@ -1,0 +1,21 @@
+Part_ID,Equipment_ID,Part_Name,Part_Number,Unit_Cost,Stock_Quantity,Reorder_Threshold,Supplier_Name,Supplier_Contact,Lead_Time_Days
+PRT-AHU-001,EQ-HVAC-1001,Air Filter Cartridge,AF-5001,120.00,50,20,Northwest HVAC Parts,206-555-1020,5
+PRT-AHU-002,EQ-HVAC-1001,Blower Motor Assembly,BM-2201,350.00,20,10,Seattle Blowers Inc.,206-555-1044,7
+PRT-CTF-001,EQ-HVAC-1002,Cooling Tower Fan Blade,FB-9001,200.00,30,15,Pacific Cooling Co.,503-555-1102,6
+PRT-CTF-002,EQ-HVAC-1002,Water Distribution Nozzle,WN-9101,45.00,100,40,AquaFlow Supplies,253-555-1123,4
+PRT-ICH-001,EQ-HVAC-1003,Compressor Unit,CU-7501,800.00,15,5,Industrial Chillers,425-555-1190,10
+PRT-ICH-002,EQ-HVAC-1003,Chiller Expansion Valve,EV-7502,150.00,40,15,Cascade HVAC Supply,509-555-1188,5
+PRT-RTH-001,EQ-HVAC-1004,Thermostat Controller,TC-1201,95.00,60,20,Climate Controls LLC,425-555-1201,3
+PRT-RTH-002,EQ-HVAC-1004,Roof Vent Motor,RVM-1202,180.00,25,10,Seattle Blowers Inc.,206-555-1044,7
+PRT-VEF-001,EQ-HVAC-1005,Fan Bearing Set,FBS-4501,60.00,100,50,Bearing Solutions NW,360-555-1225,3
+PRT-VEF-002,EQ-HVAC-1005,Exhaust Damper,ED-4502,75.00,80,30,Cascade HVAC Supply,509-555-1188,4
+PRT-DHS-001,EQ-HVAC-1006,Moisture Absorber Cartridge,MA-3001,50.00,75,25,Humidex Parts Co.,503-555-1250,5
+PRT-DHS-002,EQ-HVAC-1006,Dehumidifier Pump,DP-3002,90.00,40,15,Humidex Parts Co.,503-555-1250,6
+PRT-VAV-001,EQ-HVAC-1007,VAV Box Control Panel,CP-2001,110.00,50,20,Variable Air Supply,425-555-1275,5
+PRT-VAV-002,EQ-HVAC-1007,Airflow Sensor,AS-2002,55.00,70,25,Variable Air Supply,425-555-1275,5
+PRT-AFS-001,EQ-HVAC-1008,HEPA Filter Set,HF-1001,200.00,120,50,CleanAir Filtration,253-555-1299,4
+PRT-AFS-002,EQ-HVAC-1008,Filtration Fan Motor,FM-1002,140.00,30,10,CleanAir Filtration,253-555-1299,6
+PRT-HRV-001,EQ-HVAC-1009,Heat Exchanger Core,HX-6001,500.00,25,10,HeatFlow Solutions,360-555-1311,8
+PRT-HRV-002,EQ-HVAC-1009,Ventilation Duct Clamp,DC-6002,25.00,150,50,HeatFlow Solutions,360-555-1311,2
+PRT-IDH-001,EQ-HVAC-1010,Heating Element Coil,HC-3501,150.00,45,15,Industrial Heating Co.,425-555-1355,5
+PRT-IDH-002,EQ-HVAC-1010,Temperature Control Switch,TS-3502,40.00,90,30,Industrial Heating Co.,425-555-1355,3
