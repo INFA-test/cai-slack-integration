@@ -1,0 +1,11 @@
+Equipment_ID,Equipment_Name,Model_Number,Serial_Number,Location,Warranty_Expiry,Last_Service_Date
+EQ-HVAC-1001,Central Air Handling Unit,AHU-5000,SN-AHU5000-01,"620 S Orcas St. Seattle, WA",2025-12-31,2025-03-15
+EQ-HVAC-1002,Cooling Tower Fan,CTF-900,SN-CTF900-02,"1500 4th Ave, Seattle, WA",2026-05-15,2025-01-20
+EQ-HVAC-1003,Industrial Chiller,ICH-750,SN-ICH750-03,"2001 6th Ave, Tacoma, WA",2025-11-20,2025-04-05
+EQ-HVAC-1004,Roof Top HVAC Unit,RTH-1200,SN-RTH1200-04,"980 Industrial Way, Everett, WA",2026-03-30,2025-02-10
+EQ-HVAC-1005,Ventilation Exhaust Fan,VEF-450,SN-VEF450-05,"3211 N Monroe St, Spokane, WA",2025-09-10,2025-03-28
+EQ-HVAC-1006,Dehumidifier System,DHS-300,SN-DHS300-06,"4125 SE 82nd Ave, Portland, OR",2026-12-01,2025-01-15
+EQ-HVAC-1007,Variable Air Volume (VAV) Box,VAV-200,SN-VAV200-07,"1010 Market St, Kirkland, WA",2025-08-18,2025-04-18
+EQ-HVAC-1008,Air Filtration System,AFS-100,SN-AFS100-08,"1555 11th Ave NW, Issaquah, WA",2026-07-07,2025-03-30
+EQ-HVAC-1009,Heat Recovery Ventilator,HRV-600,SN-HRV600-09,"2075 S 1st St, Yakima, WA",2025-10-25,2025-02-25
+EQ-HVAC-1010,Industrial Duct Heater,IDH-350,SN-IDH350-10,"1201 Broadway, Vancouver, WA",2026-02-12,2025-03-05
