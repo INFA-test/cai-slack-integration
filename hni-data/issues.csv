@@ -1,0 +1,8 @@
+report_id,equipment_id,equipment_name,purchase_data,reported_issue,contact_name,phone,reported_date,location,customer_name
+1025,EQ1001,Cooling Unit X1,2021-03-15,Unit overheating frequently. Cooling fan clogged and making noise. Power supply fluctuating.,Mike Johnson,(206)SSS1025,2025-08-10,"620 S Orcas St., Seattle, WA",Acme Corp
+1026,EQ1002,Hydraulic Pump H200,2020-06-20,Pressure drop in hydraulic system.,Sarah Lee,(425)555-1234,2025-08-15,"4500 9th Ave NE, Seattle, WA",Beta Industries
+1027,EQ1003,Air Compressor AC900,2019-11-11,Air leaks detected in hose connections.,John Smith,(360)555-9090,2025-08-12,"1200 Main St., Tacoma, WA",Gamma LLC
+1028,EQ1004,Generator G500,2018-02-25,Generator fails to start intermittently.,Emily Davis,(206)555-9876,2025-08-18,"200 Industrial Way, Everett, WA",Delta Power
+1029,EQ1005,Cooling Tower CT300,2022-04-02,"Water flow reduced, pump strainer clogged.",David Wilson,(509)555-7777,2025-08-19,"89 River Rd., Spokane, WA",Epsilon Manufacturing
+1030,EQ1006,Boiler B100,2021-09-10,Temperature control malfunction.,Sophia Brown,(206)555-8888,2025-08-20,"789 Market St., Bellevue, WA",Zeta Corp
+1031,EQ1007,Conveyor Belt C700,2023-01-14,Belt misalignment during operation.,James Carter,(253)555-4444,2025-08-21,"456 Supply Rd., Kent, WA",Omega Logistics

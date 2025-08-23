@@ -1,21 +1,11 @@
-Part_ID,Equipment_ID,Part_Name,Part_Number,Unit_Cost,Stock_Quantity
-PRT-AHU-001,EQ-HVAC-1001,Air Filter Cartridge,AF-5001,120.00,50
-PRT-AHU-002,EQ-HVAC-1001,Blower Motor Assembly,BM-2201,350.00,20
-PRT-CTF-001,EQ-HVAC-1002,Cooling Tower Fan Blade,FB-9001,200.00,30
-PRT-CTF-002,EQ-HVAC-1002,Water Distribution Nozzle,WN-9101,45.00,100
-PRT-ICH-001,EQ-HVAC-1003,Compressor Unit,CU-7501,800.00,15
-PRT-ICH-002,EQ-HVAC-1003,Chiller Expansion Valve,EV-7502,150.00,40
-PRT-RTH-001,EQ-HVAC-1004,Thermostat Controller,TC-1201,95.00,60
-PRT-RTH-002,EQ-HVAC-1004,Roof Vent Motor,RVM-1202,180.00,25
-PRT-VEF-001,EQ-HVAC-1005,Fan Bearing Set,FBS-4501,60.00,100
-PRT-VEF-002,EQ-HVAC-1005,Exhaust Damper,ED-4502,75.00,80
-PRT-DHS-001,EQ-HVAC-1006,Moisture Absorber Cartridge,MA-3001,50.00,75
-PRT-DHS-002,EQ-HVAC-1006,Dehumidifier Pump,DP-3002,90.00,40
-PRT-VAV-001,EQ-HVAC-1007,VAV Box Control Panel,CP-2001,110.00,50
-PRT-VAV-002,EQ-HVAC-1007,Airflow Sensor,AS-2002,55.00,70
-PRT-AFS-001,EQ-HVAC-1008,HEPA Filter Set,HF-1001,200.00,120
-PRT-AFS-002,EQ-HVAC-1008,Filtration Fan Motor,FM-1002,140.00,30
-PRT-HRV-001,EQ-HVAC-1009,Heat Exchanger Core,HX-6001,500.00,25
-PRT-HRV-002,EQ-HVAC-1009,Ventilation Duct Clamp,DC-6002,25.00,150
-PRT-IDH-001,EQ-HVAC-1010,Heating Element Coil,HC-3501,150.00,45
-PRT-IDH-002,EQ-HVAC-1010,Temperature Control Switch,TS-3502,40.00,90
+part_number,description,inventory_qty,warranty_months,reorder_threshold
+8567,Cooling Fan Filter,25,12,5
+9001,Hydraulic Pump Seal,50,6,10
+7450,Air Hose Connector,75,18,15
+6620,Generator Spark Plug,40,24,8
+3321,Cooling Tower Pump Strainer,60,12,12
+1288,Boiler Thermostat,35,36,7
+5899,Conveyor Belt Roller,20,24,5
+4788,Fan Motor Assembly,15,24,3
+2233,Pressure Gauge,55,18,10
+6677,Control Panel Fuse,100,12,20
