@@ -3,7 +3,7 @@
   "info": {
     "title": "Asana API - Get Tasks in Project",
     "version": "1.0.0",
-    "description": "Fetch all tasks in a specific Asana project."
+    "description": "Fetch all tasks in a specific Asana project with hardcoded project ID."
   },
   "servers": [
     {
@@ -11,40 +11,10 @@
     }
   ],
   "paths": {
-    "/projects/{project_gid}/tasks": {
+    "/projects/1211144180471084/tasks": {
       "get": {
-        "summary": "Get tasks in a project",
-        "operationId": "getProjectTasks",
-        "parameters": [
-          {
-            "name": "project_gid",
-            "in": "path",
-            "required": true,
-            "description": "The GID of the project.",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "opt_fields",
-            "in": "query",
-            "required": false,
-            "description": "Comma-separated list of fields to include in response (e.g., name,resource_type,resource_subtype).",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "limit",
-            "in": "query",
-            "required": false,
-            "description": "Maximum number of tasks per page.",
-            "schema": { "type": "integer", "default": 50 }
-          },
-          {
-            "name": "offset",
-            "in": "query",
-            "required": false,
-            "description": "Pagination offset token from previous response.",
-            "schema": { "type": "string" }
-          }
-        ],
+        "summary": "Get tasks in a specific project",
+        "operationId": "getTasksHardcodedProject",
         "responses": {
           "200": {
             "description": "List of tasks in the project",
