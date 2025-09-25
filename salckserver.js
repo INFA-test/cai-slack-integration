@@ -7,51 +7,58 @@ const port = 3000;
 app.use(bodyParser.json());
 
 const SLACK_BOT_TOKEN = '<token>';
-const INFORMATICA_API_URL = 'https://usw1-cai.dmp-us.informaticacloud.com/active-bpel/public/rt/abpTttOyGhYjW2yC5mIze8/MainProcess_get_response_slack';
-
+const INFORMATICA_API_URL_TEXT = 'https://.../MainProcess_get_response_slack';   // endpoint for text-only
+const INFORMATICA_API_URL_FILE = 'https://.../MainProcess_with_attachment';     // endpoint for messages with files/attachments
 
 app.post('/', async (req, res) => {
-  console.log("EVENTTT!")
+  console.log("EVENTTT!");
   const event = req.body;
-  
 
-  // verification 
+  // Slack verification
   if (event.type === 'url_verification') {
     return res.json({ challenge: event.challenge });
   }
 
-  // real events
+  // Event callback
   if (event.type === 'event_callback') {
-    
     const message = event.event;
 
-    // when bot is mentioned
-    if (!message.type || message.type == 'app_mention') {
-    //   const messageText = message.text;
-      const messageText = message.text.replace(/<[^>]+>/g, '').trim();
-      console.log(message.text)
+    if (!message.type || message.type === 'app_mention') {
+      const messageText = message.text ? message.text.replace(/<[^>]+>/g, '').trim() : '';
       const channelId = message.channel;
-      console.log(channelId)
 
-      // body
+      console.log("Message text:", messageText);
+      console.log("Channel:", channelId);
+
+      // Check for attachments/files
+      const hasAttachment = (message.files && message.files.length > 0) ||
+                            (message.attachments && message.attachments.length > 0);
+
+      // Choose endpoint
+      const apiUrl = hasAttachment ? INFORMATICA_API_URL_FILE : INFORMATICA_API_URL_TEXT;
+
+      // Build payload
       const informaticaPayload = {
         slack_event_text: messageText,
-        slack_channel_id:  channelId
+        slack_channel_id: channelId,
+        slack_files: message.files || [],
+        slack_attachments: message.attachments || []
       };
 
       try {
-        // CAI procss call
-        const response = await axios.post(INFORMATICA_API_URL, informaticaPayload, {
-          headers: {
-            'Content-Type': 'application/json'
-          }
+        // Call Informatica process
+        const response = await axios.post(apiUrl, informaticaPayload, {
+          headers: { 'Content-Type': 'application/json' }
         });
 
         console.log('Informatica API response:', response.data);
 
-
+        // Acknowledge back to Slack
         await axios.post('https://slack.com/api/chat.postMessage', {
-          text: `Message received and sent to Informatica API: ${messageText}`
+          channel: channelId,
+          text: hasAttachment
+            ? `Message + attachment sent to Informatica API`
+            : `Message sent to Informatica API`
         }, {
           headers: {
             'Authorization': `Bearer ${SLACK_BOT_TOKEN}`,
@@ -68,7 +75,7 @@ app.post('/', async (req, res) => {
   res.status(200).send();
 });
 
-// server start
+// Server start
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
